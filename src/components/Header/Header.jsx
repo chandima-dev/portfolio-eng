@@ -77,8 +77,8 @@ const Header = () => {
           </ul>
         </div>
         <div className={styles.socialMedia}>
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+          <a href="https://web.facebook.com/falcondesignstudio" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
+          <a href="https://lk.linkedin.com/company/falcon-engineering-and-architects" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
         </div>
       </header>
     </div>

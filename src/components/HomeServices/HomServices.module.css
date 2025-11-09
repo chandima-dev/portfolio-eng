@@ -7,6 +7,7 @@
     justify-content: center; /* Center the inner container horizontally */
     align-items: center; /* Center the inner container vertically */
     flex-direction: column; /* Stack the inner container vertically */
+    padding-bottom: 15vh;
 }
 
 /* Inner container for card view */
@@ -109,7 +110,6 @@
     font-size: 50px; /* Set the font size */
     margin-bottom: 40px; /* Add some space below the title */
     text-align: center; /* Center the title */
-    margin-top: -100px;
 }
 
 /* Style for the card description */

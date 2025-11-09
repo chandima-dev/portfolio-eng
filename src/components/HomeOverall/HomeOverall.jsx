@@ -12,7 +12,7 @@ const HomeOverall = () => {
               <span className={styles.companyNameText}>Falcon Engineering<br /> & Architects Pvt. Ltd</span>
             </h1>
             <p className={styles.paragraphText}>
-              We are an innovative Architectural and Engineering Design Firm, driven by a professional team of skilled engineers, architects, Quantity Surveyors, and draftsmen. We specialize in delivering tailored solutions for the Architecture, Engineering, and Construction (AEC) industry. Whether you need precision CAD conversions, comprehensive building designs, or advanced BIM modeling, we’re here to bring your vision to life with cutting-edge technology and expertise. Explore our wide range of services and let us transform your ideas into reality.
+              We are an innovative Architectural and Engineering Design Firm, driven by a professional team of skilled Engineers, Architects, Quantity Surveyors, Draftsmen, and Interior Designers. We specialize in delivering tailored solutions for the Architecture, Engineering, and Construction (AEC) industry. Whether you need precision CAD conversions, comprehensive building designs, or advanced BIM modeling, we’re here to bring your vision to life with cutting-edge technology and expertise. Explore our wide range of services and let us transform your ideas into reality.
             </p>
           </div>
         </div>

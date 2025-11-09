@@ -81,11 +81,11 @@ const Footer = () => {
             <button type="submit">Get Updates</button>
           </form>
           <div className={styles.socialIcons}>
-            <a href="https://facebook.com" aria-label="Facebook"><FaFacebook /></a>
-            <a href="https://linkedin.com" aria-label="LinkedIn"><FaLinkedin /></a>
-            <a href="https://wa.me/+94705901816" aria-label="RSS"><IoLogoWhatsapp /></a>
-            <a href="viber://chat?number=94705901816" aria-label="RSS"><FaViber /></a>
-            <a href="imo://chat?number=94705901816" aria-label="RSS"><IoChatbubbleEllipsesOutline /></a>
+            <a href="https://web.facebook.com/falcondesignstudio" aria-label="Facebook"><FaFacebook /></a>
+            <a href="https://lk.linkedin.com/company/falcon-engineering-and-architects " aria-label="LinkedIn"><FaLinkedin /></a>
+            <a href="https://wa.me/+94728130647" aria-label="RSS"><IoLogoWhatsapp /></a>
+            <a href="viber://chat?number=+94728130647" aria-label="RSS"><FaViber /></a>
+            <a href="imo://chat?number=+94728130647" aria-label="RSS"><IoChatbubbleEllipsesOutline /></a>
           </div>
         </div>
       </div>

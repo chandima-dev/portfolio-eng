@@ -6,6 +6,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
   }
   
   /* Max-width container */
@@ -70,8 +72,8 @@
   .rightContainer {
     flex: 2;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: right;
+    align-items: right;
   }
   
   /* Container for the images */
@@ -80,9 +82,9 @@
     flex-direction: column; /* Stack images vertically */
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 72%;
     gap: 10px; /* Adds space between the images */
-    padding: 50px 0 50px 50px;
+    padding: 50px -100px 50px 50px;
     z-index: 1;
   }
   
@@ -90,8 +92,9 @@
   .imageWrapper {
     width: 100%; /* Ensure each image takes the full width */
     opacity: 0; /* Start with hidden */
-    animation: fadeInLeft 0.5s forwards; /* Animation for images */
+    animation: fadeInLeft 0.8s forwards; /* Animation for images */
     animation-delay: var(--delay); /* Use a CSS variable for delay */
+    image-resolution: 1890px 1000px;
   }
   
   /* Keyframe animation for fading in from the left */

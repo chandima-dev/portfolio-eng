@@ -147,19 +147,19 @@ const ContactUs = () => {
         <h2>Follow Our Social Network</h2>
         <p>Stay in touch with our projects and services</p>
         <div>
-          <StyledSocialIcon href="https://facebook.com" target="_blank" rel="noopener noreferrer" title="Facebook">
+          <StyledSocialIcon href="https://web.facebook.com/falcondesignstudio" target="_blank" rel="noopener noreferrer" title="Facebook">
             <FaFacebook size={35} />
           </StyledSocialIcon>
-          <StyledSocialIcon href="https://linkedin.com" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+          <StyledSocialIcon href="https://lk.linkedin.com/company/falcon-engineering-and-architects" target="_blank" rel="noopener noreferrer" title="LinkedIn">
             <FaLinkedin size={35} />
           </StyledSocialIcon>
-          <StyledSocialIcon href={`https://wa.me/+94705901816`} target="_blank" rel="noopener noreferrer" title="WhatsApp">
+          <StyledSocialIcon href={`https://wa.me/+94728130647`} target="_blank" rel="noopener noreferrer" title="WhatsApp">
             <IoLogoWhatsapp size={35} />
           </StyledSocialIcon>
-          <StyledSocialIcon href={`viber://chat?number=94705901816`} target="_blank" rel="noopener noreferrer" title="Viber">
+          <StyledSocialIcon href={`viber://chat?number=94728130647`} target="_blank" rel="noopener noreferrer" title="Viber">
             <FaViber size={35} />
           </StyledSocialIcon>
-          <StyledSocialIcon href={`imo://chat?number=94705901816`} title="IMO">
+          <StyledSocialIcon href={`imo://chat?number=94728130647`} title="IMO">
             <IoChatbubbleEllipsesOutline size={35} />
           </StyledSocialIcon>
         </div>

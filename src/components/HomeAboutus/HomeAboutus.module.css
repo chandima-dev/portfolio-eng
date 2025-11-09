@@ -6,6 +6,8 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(43, 41, 41); /* Fallback background color */
+  /* padding-top: 4vh; */
+  /* padding-bottom: 4vh; */
 }
 .container::before {
   content: '';
@@ -16,7 +18,7 @@
   width: 100%; /* Adjust the width of the pseudo-element */
   height: 100%; /* Adjust the height of the pseudo-element */
   background-image: url('/images/homeImages/Untitled\ design.svg'); /* Set background image */
-  background-size:2500px 1750px; /* Set the specific size for the background image */
+  background-size:1890px 1000px; /* Set the specific size for the background image */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   filter: brightness(0.6); /* Apply brightness filter only to the background image */
@@ -47,14 +49,14 @@
 
 .title {
   font-size: 50px;
-  margin: 50px 0; /* Optional margin */
+  margin: 10px 0; /* Optional margin */
   color: white;
   text-align: center; 
 }
 
 .subtitle {
-  font-size: 60px;
-  margin: 50px 0; /* Optional margin */
+  font-size: 50px;
+  margin: 10px 0; /* Optional margin */
   color: #FF7F00;
   text-align: center;  
 }
