@@ -1,50 +1,39 @@
 import React, { useEffect } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate for redirection
+import { useNavigate } from 'react-router-dom';
 import SubSlider from '../../components/SubSlider/SubSlider';
 import { Container, Grid } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import { Fade } from 'react-awesome-reveal'; // Import the animation component
-import cardData from './ProjectData'; // Import the card data
+import { Fade } from 'react-awesome-reveal';
+import cardData from './ProjectData'; 
 
 const MultiActionAreaCard = ({ image, title, delay, index }) => {
-  const navigate = useNavigate(); // Hook for navigation
-
-  const handleCardClick = () => {
-    // Redirect to the SingleProject page with card index
-    navigate(`/singleproject/${index + 1}`);
-  };
+  const navigate = useNavigate();
 
   return (
     <Fade direction="up" delay={delay} triggerOnce>
       <Card
         sx={{
-          width: '100%', // Make card width 100% to utilize grid space
-          maxWidth: 360, // Maximum width to prevent cards from being too wide
-          my: 2, // Margin on the y-axis
-          transition: 'transform 0.3s ease-in-out', // Smooth transition for zoom effect
+          width: '100%',
+          maxWidth: 360,
+          my: 2,
+          transition: 'transform 0.3s ease-in-out',
           '&:hover': {
-            transform: 'scale(1.05)', // Zoom in by 5% on hover
+            transform: 'scale(1.05)',
           },
         }}
-        onClick={handleCardClick}
         style={{ cursor: 'pointer' }}
       >
-        <CardMedia
-          component="img"
-          height="250"
-          image={image}
-          alt={title}
-        />
+        <CardMedia component="img" height="250" image={image} alt={title} />
         <CardContent>
           <Typography
             gutterBottom
             variant="h6"
             component="div"
             textAlign="center"
-            dangerouslySetInnerHTML={{ __html: title }} // Render with spaces
+            dangerouslySetInnerHTML={{ __html: title }}
           />
         </CardContent>
       </Card>
@@ -54,40 +43,94 @@ const MultiActionAreaCard = ({ image, title, delay, index }) => {
 
 const Projects = () => {
   useEffect(() => {
-    window.scrollTo(0, 0); // Scroll to the top when the component mounts
-  }, []); // Empty dependency array ensures this runs only once
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div>
-      {/* SubSlider component */}
       <SubSlider
         title="Our Projects"
         description="Explore our portfolio of valuable and impactful projects"
       />
 
-      {/* Container for card layout */}
-      <Container sx={{ mt: { xs: -30, md: 10 }, mb: { xs: 4, md: 0 } }}>
-        {/* Generate the cards dynamically using map */}
+      <Container sx={{ mt: { xs: -26, md: 10 }, mb: { xs: 4, md: 0 } }}>
         <Grid container spacing={2} justifyContent="center">
           {cardData.map((card, index) => (
             <Grid
               item
               key={index}
-              xs={12}  // Full width on extra small screens (mobile)
-              sm={6}   // 2 cards per row on small screens (>= 600px)
-              md={4}   // 3 cards per row on medium screens (>= 960px)
-              lg={4}   // 3 cards per row on large screens (>= 1280px)
+              xs={12}
+              sm={6}
+              md={4}
+              lg={4}
             >
               <MultiActionAreaCard
                 image={card.image}
                 title={card.title}
-                delay={index * 100}  // Adjust delay based on index for staggering effect
-                index={index}  // Pass the index to identify the card
+                delay={index * 100}
+                index={index}
               />
             </Grid>
           ))}
         </Grid>
       </Container>
+
+      {/* ---------------- GIF FULL-WIDTH ANIMATION ---------------- */}
+      {/* <div 
+        style={{ 
+          textAlign: "center", 
+          marginTop: "50px", 
+          marginBottom: "-5px", 
+          backgroundColor: "rgb(43, 41, 41)", 
+          overflow: "hidden" 
+        }}
+      >
+        <h2 
+          style={{ 
+            color: "#fff", 
+            fontSize: "2.5rem", 
+            marginBottom: "-39px", 
+            animation: "zoomIn 1s ease forwards" 
+          }}
+        >
+          Trusted Services, Connecting the World
+        </h2>
+
+        <img
+          src="/images/Australia (2).gif"
+          alt="Animated GIF"
+          className="gif-responsive"
+          style={{
+            width: "100%",
+            height: "80vh",     // Desktop view
+            objectFit: "contain",
+          }}
+        />
+      </div> */}
+
+      <style>
+        {`
+          @keyframes floatAnimation {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-12px); }
+            100% { transform: translateY(0px); }
+          }
+
+          @keyframes zoomIn {
+            0% { transform: scale(0); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+          }
+
+          /* -------- MOBILE VIEW (MAKE GIF SMALLER) -------- */
+          @media (max-width: 600px) {
+            .gif-responsive {
+              height: 40vh !important;   /* Smaller on mobile */
+              margin-top: 10px;
+              margin-bottom: 10px;
+            }
+          }
+        `}
+      </style>
     </div>
   );
 };

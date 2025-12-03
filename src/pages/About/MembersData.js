@@ -6,18 +6,18 @@ export const teamMembers = [
     role: 'Managing Director',
     position: 'Civil & Design Engineer',
     education: 'Bsc. Civil Eng. (Hon’s) ',
-    image: '/images/profile/mr.jpg', // Use different images for different members
+    image: '/images/profile/mr.DL.jpg', // Use different images for different members
   },
   {
     name: 'Miss. SG Hettiarachchi ',
-    role: 'Director/Manager',
+    role: 'Director/ Manager- Admin & IT',
     position: 'Msc.in Cyber Security',
-    education: 'Bsc.in Information Technology',
+    education: 'Msc. in Cyber Security Bsc. information technology',
     image: '/images/profile/miss.jpg', // Use different images for different members
   },
   {
     name: 'Mrs. PKCK Menike',
-    role: 'Director',
+    role: 'Director- HR',
     // position: 'Senior Structural Engineer',
     // education: 'BSc Hons Civil Engineering',
     image: '/images/profile/miss.jpg', // Use different images for different members
@@ -44,17 +44,17 @@ export const teamMembers = [
     image: '/images/profile/mr.jpg',
   },
   {
-    name: 'Mr. KGH Koggala',
-    role: 'Interior Designer',
-    // position: 'Senior Structural Engineer',
-    // education: 'BSc Hons Civil Engineering',
+    name: 'Mr. YMTD Gannile',
+    role: 'Civil & Design Engineer',
+    // position: 'Structural Engineer',
+    education: 'Bsc. Civil Eng (Hon’s)',
     image: '/images/profile/mr.jpg',
   },
   {
-    name: 'Mr. KL Satheer Mohomed',
-    role: 'Draughtsman',
-    // position: 'Structural Engineer',
-    // education: 'BSc Civil Engineering',
-    image: '/images/profile/mr.jpg',
-  },
+  name: 'Miss.N Hettiarachchi',
+  role: 'Interior Designer',
+  // position: 'Structural Engineer',
+  education: 'BA (Hon’s)',
+  image: '/images/profile/mr.jpg',
+},
 ];

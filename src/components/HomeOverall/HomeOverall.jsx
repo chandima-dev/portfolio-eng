@@ -19,13 +19,14 @@ const HomeOverall = () => {
         <div className={styles.rightContainer}>
           <div className={styles.imageContainer}>
             <div className={styles.imageWrapper} style={{ '--delay': '0s' }}>
-              <img src="/images/SingleProducts/Architectural Design/CANADIAN FARMHOUSE/9.jpg" alt="Image 1" className={styles.imageStyle} />
+              <img src="/images/SingleProducts/Architectural Design/phase2/P-3.png" alt="Image 1" className={styles.imageStyle} />
+
             </div>
             <div className={styles.imageWrapper} style={{ '--delay': '0.5s' }}>
-              <img src="/images/SingleProducts/Architectural Design/423 ERIE AVENUE/Kitchen_2_2.png" alt="Image 2" className={styles.imageStyle} />
+              <img src="/images/SingleProducts/Architectural Design/phase2/P-2.png" alt="Image 2" className={styles.imageStyle} />
             </div>
             <div className={styles.imageWrapper} style={{ '--delay': '1s' }}>
-              <img src="/images/SingleProducts/Architectural Design/TEXAS, USA 8 ACRES/E_Unit 1_Living2.png" alt="Image 3" className={styles.imageStyle} />
+              <img src="/images/SingleProducts/Architectural Design/phase2/P-1.png" alt="Image 3" className={styles.imageStyle} />
             </div>
           </div>
         </div>

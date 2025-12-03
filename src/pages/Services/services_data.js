@@ -1,5 +1,27 @@
 // data.js
 const servicesData = [
+      {
+      title: "BIM & VDC",
+      descriptionPoints: [
+        "Architectural/Structural & MEP BIM Modeling and Coordination, ranging from LOD 100 to LOD 500",
+        "Revit Parametric Family Creation per requirement",
+        "ISO 19650-compliant BIM practices and handled by certified professionals",
+        "2D Documentation & Shop Drawings Preparation",
+        "Facility Management & Digital Twin solutions",
+        "4D & 5D BIM Modeling: Integrating time and cost data into the 3D model to help with scheduling and cost management.",
+        "Quantity Takeoffs & BOQ Generation: Extracting quantities for material estimates and Bill of Quantities (BOQ).",
+        "Construction Sequencing & Site Layouts: Visualizing construction phases and planning site logistics.",
+        "GCC, European, North American codes and standards adaptability"
+      ],
+        images: [
+        // "/images/services/BIM & VDC/bim (3).webp",
+        // "/images/services/BIM & VDC/bim (1).webp",
+        // "/images/services/BIM & VDC/bim (2).webp",
+        "/images/services/BIM & VDC/Untitled design (8).png",
+        "/images/services/BIM & VDC/bim2.png",
+        "/images/services/BIM & VDC/bim3.png",
+      ],
+    },
     {
       title: "Architectural Design",
       descriptionPoints: [
@@ -48,19 +70,6 @@ const servicesData = [
         "/images/services/3D Visualization & Rendering/vr (3).webp",
         "/images/services/3D Visualization & Rendering/vr (1).webp",
         "/images/services/3D Visualization & Rendering/vr (2).webp",
-      ],
-    },
-    {
-      title: "BIM & VDC (Virtual Design and Construction)",
-      descriptionPoints: [
-        "4D & 5D BIM Modeling: Integrating time and cost data into the 3D model to help with scheduling and cost management.",
-        "Quantity Takeoffs & BOQ Generation: Extracting quantities for material estimates and Bill of Quantities (BOQ).",
-        "Construction Sequencing & Site Layouts: Visualizing construction phases and planning site logistics.",
-      ],
-      images: [
-        "/images/services/BIM & VDC/bim (3).webp",
-        "/images/services/BIM & VDC/bim (1).webp",
-        "/images/services/BIM & VDC/bim (2).webp",
       ],
     },
     {

@@ -31,7 +31,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className={styles.footerSection}>
+        <div className={`${styles.footerSection} ${styles.supportShiftLeft}`}>
           <h4>Support</h4>
           <ul>
             <li><Link to="/contactus" onClick={handleLinkClick}>Help Center</Link></li>
@@ -41,31 +41,23 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className={styles.footerSection}>
+        <div className={`${styles.footerSection} ${styles.paymentMethodsShiftLeft}`}>
           <h4>Payment Methods</h4>
-          <div className={styles.paymentMethods}>
+
+          <div className={styles.paymentRowContainer}>
+            {/* Left Part (4 images) */}
             <ul className={styles.paymentList}>
-              <li>
-                <img 
-                  src="/images/payments/paypal_1.jpg" 
-                  alt="PayPal" 
-                  className={styles.paymentLogo} 
-                />
-              </li>
-              <li>
-                <img 
-                  src="/images/payments/WesternUnion.png" 
-                  alt="Western Union" 
-                  className={styles.paymentLogo} 
-                />
-              </li>
-              <li>
-                <img 
-                  src="/images/payments/Payoneer-2-886x590.png" 
-                  alt="Payoneer" 
-                  className={styles.paymentLogo} 
-                />
-              </li>
+              <li><img src="/images/payments/visa2.png" alt="Visa" className={styles.paymentLogo} /></li>
+              <li><img src="/images/payments/M_C.png" alt="Mastercard" className={styles.paymentLogo} /></li>
+              <li><img src="/images/payments/paypal_1.jpg" alt="PayPal" className={styles.paymentLogo} /></li>
+              <li><img src="/images/payments/Payoneer-2-886x590.png" alt="Payoneer" className={styles.paymentLogo} /></li>
+            </ul>
+
+            {/* Right Part (3 images) */}
+            <ul className={styles.paymentList}>
+              <li><img src="/images/payments/WesternUnion.png" alt="Western Union" className={styles.paymentLogo} /></li>
+              <li><img src="/images/payments/B_T2.png" alt="Bank Transfer" className={styles.paymentLogo} /></li>
+              <li><img src="/images/payments/B_P.png" alt="Binance Pay" className={styles.paymentLogo} /></li>
             </ul>
           </div>
         </div>

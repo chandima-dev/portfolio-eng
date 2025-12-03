@@ -1,29 +1,31 @@
 const cardData = [
-  {
-    image: "/images/SingleProducts/Architectural Design/423 ERIE AVENUE/Main Image.png",
-    title: "Exterior and Interior Renderings",
-    delay: 100
-  },
-  {
-    image: "/images/SingleProducts/Architectural Design/CANADIAN FARMHOUSE/MAIN IMAGE.jpg",
-    title: "Two-Storey Residential Unit",
-    delay: 300
-  },
-  {
-    image: "/images/SingleProducts/Architectural Design/PROPOSED ORMISTON/MAIN IMAGE.jpg",
-    title: "Commercial Office Design",
-    delay: 500
-  },
-  {
-    image: "/images/SingleProducts/Architectural Design/TEL AVIV, ISRAEL/MAIN IMAGE.jpg",
-    title: "Two-Storey Residential Home", // Add line break and space
-    delay: 550
-  },
-  {
-    image: "/images/SingleProducts/Architectural Design/TEXAS, USA 8 ACRES/MAIN IMAGE.png",
-    title: "Texas Quadplex",
-    delay: 600
-  }
+  { image: "/images/projects/TelAvivLuxury.jpg", title: "Tel Aviv, Israel Luxury Modern Apartments BIM Project", delay: 2300 },
+  { image: "/images/projects/FashionCentre.jpg", title: "Saudi Conceptual Fashion Conference Centre", delay: 2100 },
+  { image: "/images/projects/TelAvivApt.jpg", title: "Apartment Complex at Tel Aviv, Israel", delay: 1300 },
+  { image: "/images/projects/Malawi2Store.jpg", title: "Malawi, West Africa 2 Store Residence Design Project", delay: 500 },
+  { image: "/images/projects/GreatWrap.jpg", title: "Great wrap Restaurant & 40 Rooms Hotel, Georgia, USA", delay: 600 },
+  { image: "/images/projects/TelAvivModern.jpg", title: "Tel Aviv, Modern Urban Residence Design Project", delay: 700 },
+  { image: "/images/projects/CostaRica3Storey.jpg", title: "Costa Rica Modern Three Storey Residence Design", delay: 1500 },
+  { image: "/images/projects/ThreePoints.JPG", title: "Three Points, Commercial Development, South Carolina USA", delay: 800 },
+  { image: "/images/projects/4BedResidence.jpg", title: "4 Bedroom Residence Conceptual to Detailed Permit Drawings", delay: 900 },
+  { image: "/images/projects/29Palms.jpg", title: "29 Palms, California Desert Residence with ADU", delay: 1000 },
+  { image: "/images/projects/Acadian.JPG", title: "Acadian Style Residence Design, USA", delay: 1100 },
+  { image: "/images/projects/Alexandria.jpg", title: "Alexandria Compound, Egypt Apartment Interior Design Fitout & Joinery", delay: 1200 },
+  { image: "/images/projects/WindmillBIM.jpg", title: "As-Built BIM Project - Windmill Lodge, London UK", delay: 1400 },
+  { image: "/images/projects/Haifa4Storey.jpg", title: "Haifa, Israel 4 Storey Residence Development", delay: 1600 },
+  { image: "/images/projects/MaisonCafe.jpg", title: "Paris, France-Maison Du Cafe and Office Remodelling Project", delay: 1800 },
+  { image: "/images/projects/SaudiHill.JPG", title: "Saudi Arabian Residence on Hill Design", delay: 2000 },
+  { image: "/images/projects/TampaKitchen.jpg", title: "Tampa, Florida Kitchen Renovation Project", delay: 2200 },
+    { image: "/images/projects/Manni.jpg", title: "Männi Container Residence Designing project, Kõruse, Estonia", delay: 100 },
+      { image: "/images/projects/DuplexNC.jpg", title: "Duplex Design Project, NC, USA", delay: 400 },
+  { image: "/images/projects/NSWRenovation.JPG", title: "NSW Residence Renovation Project", delay: 1700 },
+  { image: "/images/projects/AlhadaVilla.jpg", title: "Qatar Alhada Villa Design Project", delay: 1900 },
+  { image: "/images/projects/Ormiston.jpg", title: "Proposed Ormiston Office, New Zealand", delay: 200 },
+  { image: "/images/projects/MoveChurch.jpg", title: "Move Church, Virginia USA Conference Hall Design Project", delay: 300 },
+  { image: "/images/projects/TsueChong.jpg", title: "Tsue Chong Industrial Building Remodel Project, Seattle WA USA", delay: 2400 },
+  { image: "/images/projects/TwentyninePalmsADU.JPG", title: "Twentynine Palms, California Desert Residence & ADU", delay: 2500 },
+  { image: "/images/projects/BackyardCabin.JPG", title: "Two Bedroom Backyard Cabin Project, Texas, USA", delay: 2600 },
+  { image: "/images/projects/YogaWellness.jpg", title: "Yoga & Wellness Centre, Bali Indonesia", delay: 2700 }
 ];
 
 export default cardData;

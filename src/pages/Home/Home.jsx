@@ -8,6 +8,7 @@ import HomServices from '../../components/HomeServices/HomServices';
 import HomeBottom from '../../components/HomeBottom/HomeBottom';
 import HomeOverall from '../../components/HomeOverall/HomeOverall';
 import HomeAboutus from '../../components/HomeAboutus/HomeAboutus';
+import Testimonials from '../../components/Testimonials/Testimonials';
 
 const Slideshow = () => {
 
@@ -18,6 +19,7 @@ const Slideshow = () => {
       <HomServices />
       <HomeAboutus />
       <HomeProjects  />
+      <Testimonials/>
       <HomeBottom  />
     </div>
   );

@@ -1,0 +1,78 @@
+.page {
+  padding: 50px 20px;
+  font-family: "Cerebri Sans", sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+/* SLIDER ROW */
+.slider {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+/* ANIMATION — SLIDE LEFT */
+.slideOut {
+  transform: translateX(-120px); /* slide left */
+  opacity: 0.7;
+}
+
+/* REVIEW CARD */
+.card {
+  width: 300px;
+  min-height: 180px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 18px rgba(0,0,0,0.12);
+  text-align: center;
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.message {
+  font-style: italic;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.country {
+  font-size: 14px;
+  color: #666;
+}
+
+/* BULLETS */
+.bullets {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 10px;
+}
+
+.bullet {
+  width: 12px;
+  height: 12px;
+  background: #bbb;
+  border-radius: 50%;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.activeBullet {
+  background: #222;
+  transform: scale(1.3);
+}
