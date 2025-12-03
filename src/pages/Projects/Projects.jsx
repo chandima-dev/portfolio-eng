@@ -76,7 +76,7 @@ const Projects = () => {
       </Container>
 
       {/* ---------------- GIF FULL-WIDTH ANIMATION ---------------- */}
-      {/* <div 
+      <div 
         style={{ 
           textAlign: "center", 
           marginTop: "50px", 
@@ -89,7 +89,7 @@ const Projects = () => {
           style={{ 
             color: "#fff", 
             fontSize: "2.5rem", 
-            marginBottom: "-39px", 
+            marginBottom: "5px", 
             animation: "zoomIn 1s ease forwards" 
           }}
         >
@@ -97,7 +97,7 @@ const Projects = () => {
         </h2>
 
         <img
-          src="/images/Australia (2).gif"
+          src="/images/Australia (7).gif"
           alt="Animated GIF"
           className="gif-responsive"
           style={{
@@ -106,7 +106,7 @@ const Projects = () => {
             objectFit: "contain",
           }}
         />
-      </div> */}
+      </div>
 
       <style>
         {`
