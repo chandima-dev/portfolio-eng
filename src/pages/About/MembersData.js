@@ -10,8 +10,8 @@ export const teamMembers = [
   },
   {
     name: 'Miss. SG Hettiarachchi ',
-    role: 'Director/ Manager- Admin & IT',
-    position: 'Msc.in Cyber Security',
+    role: 'Director/ Manager - Admin & IT',
+    // position: 'Msc.in Cyber Security',
     education: 'Msc. in Cyber Security Bsc. information technology',
     image: '/images/profile/miss.jpg', // Use different images for different members
   },
@@ -22,6 +22,13 @@ export const teamMembers = [
     // education: 'BSc Hons Civil Engineering',
     image: '/images/profile/miss.jpg', // Use different images for different members
   },
+    {
+    name: 'Mr. RH Fernando',
+    role: 'Architect/ Planning Engineer',
+    position: 'B.Arch ',
+    education: 'Msc. Town and country planning',
+    image: '/images/profile/mr.jpg',
+  },
   {
     name: 'Mr. SN Ariyarathne',
     role: 'BIM Engineer',
@@ -29,13 +36,7 @@ export const teamMembers = [
     education: 'Bsc. Civil Eng. (Hon’s)',
     image: '/images/profile/mr.jpg',
   },
-  {
-    name: 'Mr. RH Fernando',
-    role: 'Architect/ Planning Engineer',
-    position: 'B.Arch ',
-    education: 'Msc. Town and country planning',
-    image: '/images/profile/mr.jpg',
-  },
+
   {
     name: 'Mr. ST Fernando',
     role: 'Landscape Architect',
@@ -55,6 +56,6 @@ export const teamMembers = [
   role: 'Interior Designer',
   // position: 'Structural Engineer',
   education: 'BA (Hon’s)',
-  image: '/images/profile/mr.jpg',
+  image: '/images/profile/miss.jpg',
 },
 ];

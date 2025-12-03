@@ -114,6 +114,54 @@
     justify-content: center; /* Centers the last row with 1 or 2 members */
   }
   
+  /* Featured top member */
+.featuredMember {
+  width: 260px;          /* bigger card */
+  padding: 10px;
+  transform: scale(1.15);   /* makes it pop */
+  margin-bottom: 20px;
+}
+
+.featuredMember img {
+  width: 100px !important;  /* bigger image */
+  height: 100px !important;
+  object-fit: cover;
+  border-radius: 14px;
+}
+
+.featuredMember h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.featuredMember p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+
+.seTeamImage {
+  width:50px;
+  height: 50px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+/* TRIANGLE LAYOUT */
+.triangleWrapper {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.teamRow {
+  display: flex;
+  justify-content: center;
+  gap: 50px;  /* change value here */
+  margin-bottom: 35px;
+}
+
+
+
   /* Animation Styles */
   @keyframes fadeIn {
     from {
