@@ -114,54 +114,84 @@
     justify-content: center; /* Centers the last row with 1 or 2 members */
   }
   
-  /* Featured top member */
-.featuredMember {
-  width: 260px;          /* bigger card */
-  padding: 10px;
-  transform: scale(1.15);   /* makes it pop */
-  margin-bottom: 20px;
+  /* TEAM SECTION NEW LAYOUT */
+.seTeamWrapper {
+  width: 100%;
+  margin-top: 40px;
 }
 
-.featuredMember img {
-  width: 100px !important;  /* bigger image */
-  height: 100px !important;
+/* Row 1 – One centered member */
+.rowOne {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+/* First member large styling */
+.firstMember {
+  text-align: center;
+}
+
+.firstMemberImage {
+  width: 120px; /* Larger image */
+  height: 120px;
+  border-radius: 50%;
   object-fit: cover;
-  border-radius: 14px;
+  margin-bottom: 15px;
 }
 
-.featuredMember h3 {
-  font-size: 24px;
+.firstMember h3 {
+  font-size: 28px;
   font-weight: 700;
 }
 
-.featuredMember p {
+.firstMember p {
   font-size: 18px;
-  line-height: 1.5;
 }
 
-
-
-.seTeamImage {
-  width:50px;
-  height: 50px;
-  border-radius: 12px;
-  object-fit: cover;
-}
-/* TRIANGLE LAYOUT */
-.triangleWrapper {
-  width: 100%;
-  margin-top: 10px;
-}
-
-.teamRow {
+/* Row 2 – 3 members centered */
+.rowTwo {
   display: flex;
   justify-content: center;
-  gap: 50px;  /* change value here */
-  margin-bottom: 35px;
+  gap: 40px;
+  margin-bottom: 40px;
 }
 
+/* Row 3 – 4 members centered */
+.rowThree {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
 
+/* Mobile view remains unchanged */
+@media (max-width: 768px) {
+  .rowOne,
+  .rowTwo,
+  .rowThree {
+    display: block;
+  }
 
+  .seTeamMember {
+    margin-bottom: 30px;
+  }
+
+  .firstMemberImage {
+    width: 120px; /* Mobile smaller */
+    height: 120px;
+  }
+
+  .firstMember h3 {
+    font-size: 20px;
+  }
+
+  .firstMember p {
+    font-size: 16px;
+  }
+}
+
+  
   /* Animation Styles */
   @keyframes fadeIn {
     from {
