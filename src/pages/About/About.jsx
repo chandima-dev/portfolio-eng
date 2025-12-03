@@ -74,7 +74,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className={styles.aboutUsText} ref={textRef}>
-            <h2>Our core values are</h2>
+            {/* <h2>Our core values are</h2> */}
             <p style={{ lineHeight: '1.8', fontFamily: 'Cerebri Sans, sans-serif', fontSize: '20px' }}>
               {/* At <span className={styles.boldText}>Falcon Engineering</span>, we bring together a diverse team of professionals passionate about pushing the boundaries of architectural and engineering design. With years of experience in the AEC industry, we pride ourselves on delivering bespoke services tailored to meet the unique needs of every client. Our commitment to excellence and innovation ensures that each project is handled with the utmost precision and care. */}
              Our journey began in 2018, when a group of passionate engineering graduates came together with a shared dream — to design with purpose and precision that reaches beyond borders. What started as a small collaboration has grown into a trusted firm, shaped by creativity, hard work, and genuine care for our clients. Over the years, we’ve built not just projects, but lasting relationships — earning the appreciation and satisfaction of clients from around the world. Every design we create carries a piece of our story — thoughtful, human, and made to inspire calm and comfort.
