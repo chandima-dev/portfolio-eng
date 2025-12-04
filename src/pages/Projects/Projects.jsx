@@ -97,7 +97,7 @@ const Projects = () => {
         </h2>
 
         <img
-          src="/images/Australia (7).gif"
+          src="/images/Australia (9).gif"
           alt="Animated GIF"
           className="gif-responsive"
           style={{
