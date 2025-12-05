@@ -36,9 +36,9 @@ const servicesData = [
         "3D Modeling Services: From Revit, ArchiCAD to SketchUp, we offer 3D modeling services that bring your designs to life, perfect for presentations and planning purposes.",
       ],
       images: [
-        "/images/services/Architectural Design/ad (7).webp",
-        "/images/services/Architectural Design/ad (2).webp",
-        "/images/services/Architectural Design/ad (4).webp",
+        "/images/services/Architectural Design/ad_2.jpg",
+        "/images/services/Architectural Design/ad_1.jpg",
+        "/images/services/Architectural Design/ad_3.jpg",
       ],
     },
     {
@@ -54,9 +54,9 @@ const servicesData = [
         "Fire Protection Design: Fire safety planning, including suppression systems and evacuation routes.",
       ],
       images: [
-        "/images/services/Engineering Design/ed (6).webp",
-        "/images/services/Engineering Design/ed (5).webp",
-        "/images/services/Engineering Design/ed (8).webp",
+        "/images/services/Engineering Design/ed_1.png",
+        "/images/services/Engineering Design/ed_3.png",
+        "/images/services/Engineering Design/ed_2.png",
       ],
     },
     {
@@ -67,9 +67,9 @@ const servicesData = [
         "Augmented Reality (AR): Visual overlays of designs on real environments using AR tools.",
       ],
       images: [
-        "/images/services/3D Visualization & Rendering/vr (3).webp",
-        "/images/services/3D Visualization & Rendering/vr (1).webp",
-        "/images/services/3D Visualization & Rendering/vr (2).webp",
+        "/images/services/3D Visualization & Rendering/vr_1.jpg",
+        "/images/services/3D Visualization & Rendering/vr_2.JPG",
+        "/images/services/3D Visualization & Rendering/vr_3.jpg",
       ],
     },
     {
